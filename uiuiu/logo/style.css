@@ -56,3 +56,19 @@
     top: 150px;
     left: 25px;
 }
+
+.menu ul li{
+    list-style: none;
+    line-height: 20px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-style: bold;
+    transition: all 0.3s;
+    columns: red;
+}
+
+.menu ul li:hover{
+    transform: translateX(20px) scale(1.2);
+    transition: all 0.3s;
+    cursor: pointer;
+}
